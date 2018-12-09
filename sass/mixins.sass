@@ -1,0 +1,27 @@
+= transition-all() 
+  -webkit-transition: all 0.2s
+  -moz-transition: all 0.2s
+  transition: all 0.2s
+
+= background-cover($property) 
+  -webkit-background-size: $property
+  -moz-background-size: $property
+  -o-background-size: $property
+  background-size: $property
+
+= serif-font() 
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif
+
+= sans-serif-font() 
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+
+= responsive-background($property)
+    background-position: center center
+    background-repeat: no-repeat
+    background-image: none
+    padding: 0
+    +background-cover(cover)
+    @media (min-width: $small-screen)
+        background-image: url($property)
+        padding-top: 15vw
+        padding-bottom: 15vw

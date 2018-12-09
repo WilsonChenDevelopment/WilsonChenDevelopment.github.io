@@ -1,0 +1,27 @@
+{
+  "name": "wilsonchendevelopment.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website for showcasing projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilsonChenDevelopment/WilsonChenDevelopment.github.io.git"
+  },
+  "author": "Wilson Chen",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/WilsonChenDevelopment/WilsonChenDevelopment.github.io/issues"
+  },
+  "homepage": "https://github.com/WilsonChenDevelopment/WilsonChenDevelopment.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "pug": "^2.0.3",
+    "sass": "^1.15.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.10.0"
+  }
+}

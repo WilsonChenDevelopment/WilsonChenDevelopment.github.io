@@ -1,0 +1,51 @@
+.item
+    padding: 3rem 0
+.right-align
+    justify-content: flex-start
+    @media (min-width: $small-screen)
+        justify-content: flex-end
+#projects
+    background-color: $black
+#projects-text
+    padding: 0 3em 
+    color: $white
+#projects-right-align
+    float: right
+#projects-image
+    align-items: center
+    display: flex
+    padding-right: 0px
+    padding-left: 0px
+    @media (min-width: $small-screen)
+        display: none
+#projects-p
+    margin: 16px
+#projects-image-title
+    align-items: center
+    display: none
+    margin-top: 2em
+    margin-bottom: 2em
+    margin-left: auto
+    margin-right: auto
+    @media (min-width: $tiny-screen)
+        display: block
+    @media (min-width: $mobile-screen)
+        width: 80%        
+    @media (min-width: $small-screen)
+        width: 120%
+        margin-top: 0em
+        margin-bottom: 0em
+#projects-image-alt-title
+    display: inline
+    @media (min-width: $tiny-screen)
+        display: none 
+    @media (min-width: $mobile-screen)
+        display: none
+#projects-row
+    background-image: url('../img/header.jpg')
+    background-position: center center
+    +background-cover(cover)
+#projects-row-backdrop-1    
+    +responsive-background('../img/fwgameplay.jpg')
+#projects-row-backdrop-2
+    +responsive-background('../img/fsgameplay.jpg')

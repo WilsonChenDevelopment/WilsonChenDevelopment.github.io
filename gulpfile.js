@@ -25,12 +25,12 @@ gulp.task('views', function () {
 });
 
 gulp.task('watch-pug', function(){
-  gulp.watch('views/*.pug', ['views']);
+  gulp.watch('views/*.pug', gulp.series('views'));
 })
 
 gulp.task('watch-css', function(){
-  gulp.watch('./sass/*.sass', ['css']);
+  gulp.watch('./sass/*.sass', gulp.series('css'));
 })
 
-gulp.task('default', ['css', 'views', 'watch-pug', 'watch-css']);
+gulp.task('default', gulp.series('css', 'views', 'watch-pug', 'watch-css'));
 

@@ -30,6 +30,11 @@
             "styles": [
               "src/styles.sass"
             ],
+            "stylePreprocessorOptions" : {
+              "includePaths" : [
+                "src/styles"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -123,6 +128,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "WilsonChenDevelopment"
+    }
+  },
+  "defaultProject": "WilsonChenDevelopment",
+  "cli": {
+    "analytics": "924e2a15-178c-45fc-9e06-d2012e322a84"
+  }
 }

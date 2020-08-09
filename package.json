@@ -1,6 +1,7 @@
 {
-  "name": "wilson-chen-development",
-  "version": "0.0.0",
+  "name": "wilsonchendevelopment.github.io",
+  "version": "2.0.0",
+  "description": "Portfolio website for showcasing projects",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
